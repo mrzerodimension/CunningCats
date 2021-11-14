@@ -40,7 +40,6 @@ h2 {
 .page-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -49,6 +48,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .container-fluid {
@@ -58,7 +58,8 @@ h2 {
 .btn {
     font-size: 1.3rem;
     padding: 13px 23px;
-    border-radius: 0;
+    border-radius: 5px;
+    line-height: 20px;
 }
 
 .btn-primary {
@@ -209,12 +210,18 @@ h2 {
 
 .tm-bg-dark {
     background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .intro-left {
     margin-right: 20px;
     padding: 30px 40px;
-    max-width: 505px;    
+    max-width: 505px; 
+    padding: 20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .intro-img-1 {
