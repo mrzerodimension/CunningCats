@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 560 Astro Motion
-
-https://templatemo.com/tm-560-astro-motion
-
-*/
-
 var gallery = undefined;
 
 function closeMenu() {
@@ -55,14 +47,14 @@ function setupGallery() {
 }
 
 function openPage(no) {
-  if(no == 2) {
-    if(gallery == undefined) {
-      setupGallery();
-    } else {
-      $('.gallery-slider').slick('unslick');
-      setupGallery();
-    }    
-  }
+  // if(no == 2) {
+  //   if(gallery == undefined) {
+  //     setupGallery();
+  //   } else {
+  //     $('.gallery-slider').slick('unslick');
+  //     setupGallery();
+  //   }    
+  // }
 
   $('.cd-hero-slider li').hide();
   $('.cd-hero-slider li[data-page-no="' + no + '"]')
